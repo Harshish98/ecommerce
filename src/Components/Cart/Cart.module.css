@@ -1,0 +1,126 @@
+.cart {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+.cart_item {
+  margin: 20px 30px;
+  width: 65%;
+}
+.cart_box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+  padding: 20px;
+}
+.cart_box img {
+  height: 200px;
+  width: 180px;
+}
+.cart_info p {
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.cart_info {
+  width: 50%;
+}
+.cart_info button {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 25px;
+}
+.cart_info button:hover {
+  background-color: black;
+  color: powderblue;
+  transform: scale(1.1);
+}
+.cart_quantity {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.cart_quantity p {
+  padding: 15px;
+}
+.cart_sidepart {
+  width: 35%;
+  margin: 20px auto;
+}
+.cart_sidebox {
+  margin: 0 auto;
+  width: 300px;
+}
+.billing {
+  text-align: left;
+  text-transform: uppercase;
+  color: #a7a9ac;
+  font-weight: 700;
+}
+.cart_total {
+  margin: 10px 0;
+  width: 100%;
+  border: 1px #eee solid;
+  overflow: hidden;
+}
+.cart_total p {
+  display: inline-block;
+  padding: 5px;
+  text-transform: capitalize;
+  color: #58595b;
+}
+.left {
+  text-align: left;
+  width: 70%;
+}
+.right {
+  text-align: right;
+  width: 30%;
+}
+.cart_sidebox button {
+  width: 100%;
+  padding: 8px;
+  text-transform: uppercase;
+  background-color: #117a7a;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.empty_section {
+  margin: 20px auto;
+  padding: 40px;
+  width: 70%;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+}
+.empty_section img {
+  width: 200px;
+  height: 200px;
+  margin: 30px auto;
+}
+.empty_section h3 {
+  padding: 10px;
+}
+.empty_section p {
+  padding: 10px;
+  font-weight: 400;
+}
+.empty_section button {
+  padding: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 30px auto;
+  font-weight: 700;
+}
+.empty_section button:hover {
+  background-color: black;
+  color: powderblue;
+  transform: scale(1.1);
+}

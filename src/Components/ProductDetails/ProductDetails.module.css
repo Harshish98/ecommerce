@@ -1,0 +1,47 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.imageSection {
+  width: 50%;
+  margin-top: 100px;
+}
+.imageSection img {
+  height: 600px;
+  width: 500px;
+}
+.detailsSection {
+  width: 50%;
+  margin-top: 100px;
+  text-align: left;
+}
+.detailsSection h1,
+.detailsSection h3 {
+  width: 80%;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.details_button {
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  display: inline-block;
+}
+.details_button:hover {
+  background-color: black;
+  color: powderblue;
+  transform: scale(1.1);
+}
+.detailsSection p {
+  margin: 10px 0;
+  line-height: 2;
+}
+.effect {
+  font-size: 28px;
+  font-weight: 700;
+}

@@ -1,0 +1,24 @@
+.not_found {
+  margin: 20px auto;
+}
+.not_found img {
+  height: 380px;
+  width: 420px;
+}
+.not_found h1 {
+  color: #aaa;
+  font-weight: 500;
+  padding: 8px;
+  margin-bottom: 80px;
+}
+.not_found button {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 12px;
+  width: 480px;
+  background-color: #117a7a;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+}
